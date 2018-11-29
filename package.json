@@ -42,6 +42,7 @@
     "build-storybook": "build-storybook",
     "lint:css": "stylelint './src/components/*.js'",
     "lint:js": "eslint .",
-    "deploy": "yarn build-storybook && gh-pages -d storybook-static"
+    "deploy": "yarn build-storybook && gh-pages -d storybook-static",
+    "test": "echo test"
   }
 }
