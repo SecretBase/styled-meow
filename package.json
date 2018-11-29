@@ -25,6 +25,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0",
+    "gh-pages": "^2.0.1",
     "prettier": "1.15.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -40,6 +41,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "lint:css": "stylelint './src/components/*.js'",
-    "lint:js": "eslint ."
+    "lint:js": "eslint .",
+    "deploy": "yarn build-storybook && gh-pages -d storybook-static"
   }
 }
