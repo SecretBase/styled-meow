@@ -1,11 +1,15 @@
 import React from "react"
-import { ThemeProvider } from "styled-components"
-import Normalize from "../src/global/normalize"
+import { ThemeProvider, createGlobalStyle } from "styled-components"
+import normalize from "../src/global/normalize"
 
 import createTheme from "../src/theme"
 
+const Normalize = createGlobalStyle`
+  ${normalize}
+`
+const theme = createTheme()
 export default storyFn => (
-  <ThemeProvider theme={createTheme()}>
+  <ThemeProvider theme={theme}>
     <>
       <Normalize />
       {storyFn()}

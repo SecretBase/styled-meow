@@ -1,15 +1,16 @@
 {
   "name": "styled-ui",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
   "author": "SecretBase <whpigpig@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.6.2",
     "styled-normalize": "^8.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.2.0",
     "@storybook/addon-actions": "^4.0.9",
     "@storybook/addon-links": "^4.0.9",
     "@storybook/addons": "^4.0.9",
@@ -27,9 +28,14 @@
     "eslint-plugin-standard": "^4.0.0",
     "gh-pages": "^2.0.1",
     "prettier": "1.15.2",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "styled-components": "^4.1.1",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "styled-components": "^4.1.2",
+    "styled-normalize": "^8.0.4",
     "stylelint": "^9.9.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended": "^2.1.0",
@@ -43,6 +49,12 @@
     "lint:css": "stylelint './src/components/*.js'",
     "lint:js": "eslint .",
     "deploy": "yarn build-storybook && gh-pages -d storybook-static",
-    "test": "echo test"
+    "test": "echo test",
+    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "styled-components": "^4.1.2"
   }
 }
