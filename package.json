@@ -18,6 +18,7 @@
     "@storybook/addons": "^4.0.9",
     "@storybook/react": "^4.0.9",
     "babel-loader": "^8.0.4",
+    "bundlesize": "^0.17.0",
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-config-standard": "^12.0.0",
@@ -54,7 +55,7 @@
     "lint:css": "stylelint './src/components/*.js'",
     "lint:js": "eslint . *.js",
     "deploy": "yarn build-storybook && gh-pages -d storybook-static",
-    "test": "yarn lint:js && yarn lint:css",
+    "test": "yarn lint:js && yarn lint:css && bundlesize",
     "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
     "jest": "jest"
   },
@@ -78,5 +79,15 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "bundlesize": [
+    {
+      "path": "./dist/index.cjs.js",
+      "maxSize": "20 kB"
+    },
+    {
+      "path": "./dist/index.es.js",
+      "maxSize": "20 kB"
+    }
+  ]
 }

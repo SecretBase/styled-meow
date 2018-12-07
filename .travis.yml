@@ -4,6 +4,8 @@ node_js:
 
 script:
   - yarn build-storybook
+  - yarn build
+  - yarn test
 
 deploy:
   provider: pages
