@@ -7,15 +7,15 @@ import ThemeDecorator from "./ThemeDecorator"
 import { Button } from "../src"
 
 addDecorator(ThemeDecorator)
-storiesOf("Button", module).add("with text", () => (
-  <>
-    <Button variant="primary">Button Primary</Button>
-    <Button variant="secondary">Button Secondary</Button>
-    <Button variant="primary" disabled>
-      Button Disabled
-    </Button>
-    <Button variant="primary" as="a">
-      Link Primary
-    </Button>
-  </>
-))
+storiesOf("Button", module).add("with primary", () => [
+  <Button variant="primary" m={16}>
+    Button Primary
+  </Button>,
+  <Button variant="secondary">Button Secondary</Button>,
+  <Button variant="primary" disabled>
+    Button Disabled
+  </Button>,
+  <Button variant="primary" as="a" p={30}>
+    Link Primary
+  </Button>,
+])
