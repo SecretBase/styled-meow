@@ -7,5 +7,14 @@
         "loose": true
       }
     ]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "minify": true,
+        "pure": true
+      }
+    ]
   ]
 }
