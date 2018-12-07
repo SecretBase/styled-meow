@@ -52,9 +52,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "lint:css": "stylelint './src/components/*.js'",
-    "lint:js": "eslint .",
+    "lint:js": "eslint . *.js",
     "deploy": "yarn build-storybook && gh-pages -d storybook-static",
-    "test": "echo test",
+    "test": "yarn lint:js && yarn lint:css",
     "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
     "jest": "jest"
   },
