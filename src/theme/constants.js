@@ -37,3 +37,8 @@ export const colorButtonPrimary = colorInteractiveDefault
 export const colorButtonPrimaryHover = colorInteractiveDark
 export const colorButtonSecondary = colorNeutral90
 export const colorButtonSecondaryHover = colorNeutral80
+
+// Feedback Color
+export const colorBgSucces = "#dbf0dc"
+export const colorBgError = "#f9d4d2"
+export const colorBgWarning = "#faf4d1"

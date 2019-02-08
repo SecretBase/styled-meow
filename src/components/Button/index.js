@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { oneOf } from "prop-types"
-import variantMixin, { variantMap } from "../../mixins/variant"
+import { variantButtonMixin, variantButtonMap } from "../../mixins/variant"
 import { marginMixin, paddingMixin, spacingPropTypes } from "../../mixins/space"
 
 import {
@@ -16,7 +16,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  ${props => variantMixin(props.variant)}
+  ${props => variantButtonMixin(props.variant)}
   ${marginMixin}
   ${paddingMixin}
 
@@ -29,7 +29,7 @@ export const Button = styled.button`
 
 Button.propTypes = {
   ...spacingPropTypes,
-  variant: oneOf(Object.keys(variantMap)),
+  variant: oneOf(Object.keys(variantButtonMap)),
 }
 
 Button.defaultProps = {

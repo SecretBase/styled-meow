@@ -1,8 +1,6 @@
 import React from "react"
 
-import { storiesOf, addDecorator } from "@storybook/react"
-
-import ThemeDecorator from "./ThemeDecorator"
+import { storiesOf } from "@storybook/react"
 
 import {
   H1,
@@ -15,7 +13,6 @@ import {
   Small,
 } from "../src/components/Typography"
 
-addDecorator(ThemeDecorator)
 storiesOf("Typography", module)
   .add("Heading", () => (
     <>

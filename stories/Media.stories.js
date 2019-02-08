@@ -1,15 +1,13 @@
 import React from "react"
 import styled from "styled-components"
-import { storiesOf, addDecorator } from "@storybook/react"
+import { storiesOf } from "@storybook/react"
 
-import ThemeDecorator from "./ThemeDecorator"
 import { Media, MediaBody, Text, H1 } from "../src/"
 
 const AlignCenterImg = styled.img`
   align-self: center;
   margin-right: 16px;
 `
-addDecorator(ThemeDecorator)
 storiesOf("Media", module)
   .add("example", () => (
     <>

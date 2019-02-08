@@ -1,13 +1,10 @@
 import React from "react"
 
-import { storiesOf, addDecorator } from "@storybook/react"
-
-import ThemeDecorator from "./ThemeDecorator"
+import { storiesOf } from "@storybook/react"
 
 import { Button } from "../src"
 
-addDecorator(ThemeDecorator)
-storiesOf("Button", module).add("with primary", () => [
+storiesOf("Button", module).add("Basic", () => [
   <Button variant="primary" m={16}>
     Button Primary
   </Button>,
