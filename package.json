@@ -61,6 +61,8 @@
     "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
     "release": "standard-version --no-verify",
     "jest": "jest",
+    "prebuild": "rm -rf dist",
+    "prerelease": "yarn build",
     "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
