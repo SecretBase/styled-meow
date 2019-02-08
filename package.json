@@ -59,7 +59,7 @@
     "deploy": "yarn build-storybook && gh-pages -d storybook-static",
     "test": "yarn lint:js && yarn lint:css && bundlesize",
     "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
-    "release": "standard-version",
+    "release": "standard-version --no-verify",
     "jest": "jest"
   },
   "peerDependencies": {
