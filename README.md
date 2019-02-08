@@ -14,11 +14,19 @@ npm install --save-dev styled-meow
 
 ## Usage
 
+In order to use the show style correctly. Import the `ThemeProvider` from `styled-components` and using `createTheme` from `styled-meow`
+
 ```javascript
-import { Button } from "styled-meow"
+import { Button, createTheme } from "styled-meow"
+import { ThemeProvider } from "styled-components"
 import { render } from "react-dom"
 
-render(<Button variant="primary">Meow !! </Button>, domElement)
+render(
+  <ThemeProvider theme={createTheme()}>
+    <Button variant="primary">Meow !! </Button>
+  </ThemeProvider>,
+  domElement,
+)
 ```
 
 ## StoryBook
