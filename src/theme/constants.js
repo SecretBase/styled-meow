@@ -42,3 +42,9 @@ export const colorButtonSecondaryHover = colorNeutral80
 export const colorBgSucces = "#dbf0dc"
 export const colorBgError = "#f9d4d2"
 export const colorBgWarning = "#faf4d1"
+
+// Breakpoints
+export const breakpointSm = "576px"
+export const breakpointMd = "768px"
+export const breakpointLg = "960px"
+export const breakpointXl = "1200px"
