@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/SecretBase/styled-meow/compare/v1.2.0...v1.3.0) (2019-02-09)
+
+
+### Features
+
+* **layout:** grid and cell components ([#2](https://github.com/SecretBase/styled-meow/issues/2)) ([f106dbc](https://github.com/SecretBase/styled-meow/commit/f106dbc))
+
+
+
 <a name="1.2.0"></a>
 
 # 1.2.0 (2019-02-08)
