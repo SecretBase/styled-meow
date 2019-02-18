@@ -18,17 +18,12 @@ export const Cell = styled.div`
   padding-left: ${spaceM};
   padding-right: ${spaceM};
   width: 100%;
-  ${props =>
-    props.xs
-      ? null
-      : css`
-          flex-basis: 0;
-          flex-grow: 1;
-        `}
+  flex-grow: 1;
 
   ${props => (props.xs ? colWidth(props.xs) : null)}
 
   @media (min-width: ${breakpointSm}) {
+    width: auto;
     ${props => (props.sm ? colWidth(props.sm) : null)}
   }
 

@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { oneOf } from "prop-types"
 import { marginMixin, paddingMixin, spacingPropTypes } from "../../mixins/space"
+import { spaceM } from "../../theme/constants"
 
 export const Grid = styled.div`
   display: flex;
@@ -8,6 +9,8 @@ export const Grid = styled.div`
   flex-direction: ${props => props.direction};
   ${marginMixin}
   ${paddingMixin}
+  margin-left: -${spaceM};
+  margin-right: -${spaceM};
 `
 
 Grid.displayName = "Grid"
