@@ -8,6 +8,6 @@ function loadStories() {
   req.keys().forEach(filename => req(filename))
 }
 
-addDecorator(withInfo())
+// addDecorator(withInfo())
 addDecorator(ThemeDecorator)
 configure(loadStories, module)
