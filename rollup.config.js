@@ -10,7 +10,9 @@ const baseConfig = {
   plugins: [
     babel({ exclude: "**/node_modules/**", ...babelConfig }),
     resolve(),
-    minify(),
+    minify({
+      comments: false,
+    }),
   ],
 }
 
