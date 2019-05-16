@@ -54,7 +54,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint:css": "stylelint './src/components/*.js'",
+    "lint:css": "stylelint src/components/**/*.js",
     "lint:js": "eslint . *.js",
     "deploy": "yarn build-storybook && gh-pages -d storybook-static",
     "test": "yarn lint:js && yarn lint:css && bundlesize",
