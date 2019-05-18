@@ -1,6 +1,23 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.5.0](https://github.com/SecretBase/styled-meow/compare/v1.4.0...v1.5.0) (2019-05-18)
+
+
+### Build System
+
+* fix stylelint not passing ([afab3fe](https://github.com/SecretBase/styled-meow/commit/afab3fe))
+* fixed travis node version ([975ca29](https://github.com/SecretBase/styled-meow/commit/975ca29))
+* minify for the bundle ([e10c179](https://github.com/SecretBase/styled-meow/commit/e10c179))
+* without comment ([e369880](https://github.com/SecretBase/styled-meow/commit/e369880))
+
+
+### Features
+
+* basic nav component ([7f31091](https://github.com/SecretBase/styled-meow/commit/7f31091))
+
+
 
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/SecretBase/styled-meow/compare/v1.3.0...v1.4.0) (2019-02-18)
