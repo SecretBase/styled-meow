@@ -19,7 +19,7 @@
     "@storybook/addons": "5.0.11",
     "@storybook/react": "5.0.11",
     "babel-loader": "8.0.6",
-    "babel-plugin-styled-components": "1.10.0",
+    "babel-plugin-styled-components": "1.10.6",
     "bundlesize": "0.17.1",
     "eslint": "5.16.0",
     "eslint-config-prettier": "4.3.0",
