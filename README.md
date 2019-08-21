@@ -5,11 +5,7 @@ I love `styled-components`, so I make some components for myself
 ## Install
 
 ```bash
-yarn add --dev styled-meow
-
-# or
-
-npm install --save-dev styled-meow
+yarn add styled-meow styled-components
 ```
 
 ## Usage

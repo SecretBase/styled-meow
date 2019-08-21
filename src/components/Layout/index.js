@@ -1,5 +1,3 @@
-import { Grid } from "./Grid"
-import { Cell } from "./Cell"
-import { Container } from "./Container"
-
-export { Grid, Cell, Container }
+export * from "./Grid"
+export * from "./Cell"
+export * from "./Container"

@@ -16,12 +16,16 @@ const control = css`
 export const Input = styled.input`
   ${control}
 `
+Input.displayName = "Input"
 
 export const TextArea = styled.textarea`
   ${control}
   height: auto;
 `
 
+TextArea.displayName = "TextArea"
+
 export const Select = styled.select`
   ${control}
 `
+Select.displayName = "Select"
