@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/SecretBase/styled-meow/compare/v1.5.0...v1.6.0) (2019-08-21)
+
+
+### Features
+
+* basic modal ([4ef4f7b](https://github.com/SecretBase/styled-meow/commit/4ef4f7b))
+
 ## [1.5.0](https://github.com/SecretBase/styled-meow/compare/v1.4.0...v1.5.0) (2019-05-18)
 
 
