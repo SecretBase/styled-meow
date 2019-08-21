@@ -35,3 +35,5 @@ export const Container = styled.div`
           }
         `}
 `
+
+Container.displayName = "Container"
