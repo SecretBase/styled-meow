@@ -1,4 +1,6 @@
-# styled-meow [![npm version](https://badge.fury.io/js/styled-meow.svg)](https://badge.fury.io/js/styled-meow)
+# styled-meow
+
+![npm](https://img.shields.io/npm/v/styled-meow?color=pink&label=%F0%9F%98%BAstyled-meow) [![Build Status](https://travis-ci.com/SecretBase/styled-meow.svg?branch=master)](https://travis-ci.com/SecretBase/styled-meow)
 
 I love `styled-components`, so I make some components for myself
 
