@@ -14,6 +14,8 @@ const Backdrop = styled.div`
   opacity: 0.5;
 `
 
+Backdrop.displayName = "Backdrop"
+
 const StyledModal = styled(ReactOverlaysModal)`
   position: fixed;
   z-index: 1040;
@@ -77,14 +79,22 @@ Modal.defaultProps = {
   size: "s",
 }
 
+Modal.displayName = "Modal"
+
 export const ModalHeader = styled.div`
   padding: ${props => props.theme.spaceM};
 `
+
+ModalHeader.displayName = "ModalHeader"
 
 export const ModalBody = styled.div`
   padding: ${props => props.theme.spaceM};
 `
 
+ModalBody.displayName = "ModalBody"
+
 export const ModalFooter = styled.div`
   padding: ${props => props.theme.spaceM};
 `
+
+ModalFooter.displayName = "ModalFooter"

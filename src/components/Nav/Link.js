@@ -21,3 +21,5 @@ export const NavLink = styled(Anchor).attrs(({ disabled }) => {
       cursor: default;
     `};
 `
+
+NavLink.displayName = "NavLink"

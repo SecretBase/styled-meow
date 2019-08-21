@@ -10,11 +10,15 @@ const VerticalGrid = styled(Grid)`
   height: 400px;
 `
 
+VerticalGrid.displayName = "VerticalGrid"
+
 const DemoGrid = styled.div`
   ${Cell} {
     border: 1px solid #000;
   }
 `
+
+DemoGrid.displayName = "DemoGrid"
 
 storiesOf("Layout", module).add("Grid and Cell", () => (
   <Container fluid>

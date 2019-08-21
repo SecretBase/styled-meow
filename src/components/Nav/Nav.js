@@ -16,3 +16,5 @@ export const Nav = styled.ul`
 Nav.propTypes = {
   ...spacingPropTypes,
 }
+
+Nav.displayName = "Nav"
