@@ -5,5 +5,6 @@
     "automerge": false
   },
   "schedule": ["after 2am every weekday", "before 6am every weekday"],
-  "timezone": "Asia/Hong_Kong"
+  "timezone": "Asia/Hong_Kong",
+  "lockFileMaintenance": true
 }
