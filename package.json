@@ -47,7 +47,7 @@
     "rollup-plugin-babel-minify": "9.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "standard-version": "7.0.0",
-    "styled-components": "4.3.2",
+    "styled-components": "4.4.0",
     "stylelint": "11.0.0",
     "stylelint-config-prettier": "5.2.0",
     "stylelint-config-recommended": "3.0.0",
