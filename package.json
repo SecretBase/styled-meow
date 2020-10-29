@@ -6,7 +6,7 @@
   "author": "SecretBase <whpigpig@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "react-overlays": "1.2.0",
+    "react-overlays": "4.1.1",
     "styled-normalize": "^8.0.6"
   },
   "devDependencies": {
