@@ -10,8 +10,8 @@
     "styled-normalize": "^8.0.6"
   },
   "devDependencies": {
-    "@babel/core": "7.26.0",
-    "@babel/preset-env": "7.26.0",
+    "@babel/core": "7.26.9",
+    "@babel/preset-env": "7.26.9",
     "@babel/preset-react": "7.26.3",
     "@commitlint/cli": "8.3.6",
     "@commitlint/config-conventional": "8.3.6",
